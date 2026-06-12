@@ -10,9 +10,6 @@ variable "AWS_REGION" {
 variable "amazon_AMI" {
     default = "ami-0543dbdaf4e114be7"
 }
-variable "ubuntu_AMI" {
-    default = "ami-02dd44faa40720bb8"
-}
 variable "kp" {
     default = "Singapore-linux-keypair-2025"
 }
